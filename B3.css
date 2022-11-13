@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mid_items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.mid_menu{
+    width: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+.highlight_item{
+    border: solid #0000ff6b;
+    border-radius: 25%;
+    padding: 5px;
+    background-color: #0000ff9e;
+}
+.normal_item{
+    padding: 5px;
+}
+.body_item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal_card{
+    width: 32%;
+    display: flex;
+    padding: 5px;
+}
+.personal_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hashtag{
+    border: solid #0000ff8f;
+    color: #0000ff85;
+    border-radius: 25%;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+.hashtag_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile_picture{
+    padding: 7px;
+}
+.searh_bar{
+    height: 100%;
+    padding: 5px;
+}
+@media (max-width: 1024px) and (min-width: 766px){}
+@media (max-width: 765px) and (min-width: 720px){
+    .personal_card{
+        width: 45%;
+    }
+}
+@media (max-width: 719px) and (min-width: 510px){
+    .personal_card{
+        width: 100%;
+    }
+}
+@media (max-width: 509px) and (min-width: 360px){
+    .personal_card{
+        width: 100%;
+    }
+}
